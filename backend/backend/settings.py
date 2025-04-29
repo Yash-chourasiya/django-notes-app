@@ -105,11 +105,11 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': os.getenv("DB_NAME"),
-        'USER': os.getenv("DB_USER"),
-        'PASSWORD': os.getenv("DB_PWD"),
-        'HOST': os.getenv("DB_HOST"),
-        'PORT': os.getenv("DB_PORT"),
+        'NAME': defaultdb,
+        'USER': avnadmin,
+        'PASSWORD': AVNS_Mek7RdcevajVCb1sFOi,
+        'HOST': pg-a146fc94d05a4bdf9b44cb3dd77f63cc-db4278704230-choreo-org-a14.l.aivencloud.com,
+        'PORT': 20520,
     }
 }
 
